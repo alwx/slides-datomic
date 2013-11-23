@@ -45,11 +45,21 @@
 					</p>
 				</section>
 
+        <section>
+          <h2>Что это?</h2>
+          Распределенная БД с поддержкой:
+          <ul>
+            <li>ACID-транзакций</li>
+            <li>Join'ов'</li>
+            <li>Datalog как языка запросов</li>
+          </ul>
+        </section>
+
 				<section>
           <p>Архитектура классической БД:</p>
 					<img src="http://www.datomic.com/uploads/3/5/9/7/3597326/339951056.png"/>
 				</section>
-        
+
         <section>
           <p>Архитектура Datomic:</p>
 					<img src="http://www.datomic.com/uploads/3/5/9/7/3597326/119999_orig.jpg"/>
@@ -63,7 +73,7 @@
             <li>Представлены в виде Datom.</li>
           </ul>
 				</section>
-        
+
         <section>
           <h2>Datom</h2>
           <ul>
@@ -83,7 +93,7 @@
             </code>
           </pre>
         </section>
-        
+
         <section>
           <h2>Транзакции</h2>
           Используется Datalog
@@ -92,8 +102,8 @@
 [:find ?e
  :where
  [?e :person/name "Alexandr" _]]
- 
- 
+
+
 [:find ?title
  :where
  [?e :lecture/year 2013]
@@ -101,7 +111,7 @@
             </code>
           </pre>
         </section>
-        
+
         <section>
           <p><a href="http://learndatalogtoday.org/">http://learndatalogtoday.org/</a></p>
           <pre>
@@ -117,7 +127,7 @@
             </code>
           </pre>
         </section>
-        
+
         <section>
           <pre>
             <code data-trim>
@@ -128,7 +138,7 @@
             </code>
           </pre>
         </section>
-        
+
         <section>
           <h2>Data storage</h2>
           <ul>
@@ -138,7 +148,7 @@
             <li>Infinispan.</li>
           </ul>
         </section>
-        
+
         <section>
           <h2>+</h2>
           <ul>
@@ -148,7 +158,7 @@
             <li>С недавнего времени Pro Starter бесплатно.</li>
           </ul>
         </section>
-        
+
         <section>
           <h2>К слову о ценах</h2>
           <ul>
@@ -158,7 +168,7 @@
             <li>Pro 30 processes: 16000 долларов/год;</li>
           </ul>
         </section>
-        
+
 				<section>
 					<h2>Вопросы?</h2>
 					<p>
